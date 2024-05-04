@@ -9,6 +9,7 @@ import Home from "../pages/Home";
 import Ecommerce from "../pages/Ecommerce";
 import Cart2 from "../pages/Cart2";
 import Contactpage from "../pages/Contactpage";
+import CartPage from "../pages/cart";
 
 
 const NavigationBar = () => {
@@ -44,7 +45,7 @@ const NavigationBar = () => {
         <div id="page-container">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Cart2 />} />
+            <Route path="/cart" element={<CartPage />} />
             <Route path="/contact" element={<Contactpage />} />
             <Route path="/ecommerce" element={<Ecommerce />} />
           </Routes>

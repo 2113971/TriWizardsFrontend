@@ -1,8 +1,26 @@
 #ecommerce-page{
+    width: 100%;
+    height: 100%;
     
+    display: flex;
+    flex-direction: row;
 }
 
 #filter-product{
-
+    background-color: aliceblue;
+    width: 25%;
 }
 
+
+#products{
+    background-color: sandybrown;
+    width: 75%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Align items evenly */
+}
+
+
+
+  
