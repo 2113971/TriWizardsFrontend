@@ -10,13 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.16",
     "@mui/material": "^5.15.16",
     "axios": "^1.6.8",
     "jwt-decode": "^4.0.0",
+=======
+    "bootstrap": "^5.3.3",
+>>>>>>> fe3cb7f94e923994cc005d3c07b7c5681156c228
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0"
   },
