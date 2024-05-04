@@ -2,7 +2,12 @@ import React from 'react'
 
 const Ecommerce = () => {
   return (
-    <div>Ecommerce</div>
+    <>
+      <div id='ecommerce-page'>
+        <div id='filter-product'></div>
+        <div id='products'></div>
+      </div>
+    </>
   )
 }
 

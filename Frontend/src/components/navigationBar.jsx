@@ -41,7 +41,7 @@ const NavigationBar = () => {
         </Navbar>
         
         
-        <div>
+        <div id="page-container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart2 />} />
